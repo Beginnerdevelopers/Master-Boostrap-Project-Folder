@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Merriweather:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,100;0,300;0,400;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto' , sans-serif;
+}
+body{
+    background: #151719;
+
+}
+hr{
+    background-color:#2c3e50;
+}
+.navbar .navbar-nav .nav-item{
+    padding-right: 3.5rem;
+}
+.navbar .navbar-nav .nav-item a{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #95a5a6;
+    
+}
+ button{
+   background-color: #6163FF; 
+   padding: 0.1rem  1.7rem;
+   font-size: 0.8rem;
+   font-weight: 700;
+   border: none;
+   border-radius: 2px;
+   color: #E7E8EE;
+}
+.mid h1{
+    color: #ECEDED;
+    font-weight: 900;
+}
+.mid h1 span{
+    color:#5658DD ;
+}
+.mid p{
+ width: 60%;
+ font-size: 1rem;
+ font-weight: 400;
+ color: #97AAAE;
+ word-spacing: 0.1rem;
+}
+.mid .row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mid .row button{
+    background-color: #6163FF; 
+    padding: 0.5rem  2rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #E7E8EE;
+  margin: 0 0.6rem;
+} 
+.mid .row button:nth-child(2){
+    background-color: #25282C; 
+    color: #E7E8EE;
+ 
+} 
+body > header > div > h1:text2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+.features .row .one img{
+    background: #5658DD;
+    color: #fff;
+    border-radius: 50%;
+}
+.features .row .one h1{
+    color: #ECEDED;
+  font-weight: 700;
+
+}
+.features .row .one p{
+    color: #97AAAE;
+  font-weight: 500;
+font-size: 1rem;
+}
+
+/* 
+about
+*/
+.about h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+.about p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #979797;
+    word-spacing: .01rem;
+}
+
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h4{
+    color: #5658DD;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+}
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 2rem;
+
+}
+/* feedback */
+.feedback h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+.feedback p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #979797;
+    word-spacing: .01rem;
+}
+
+.i{
+    color: #5658DD;
+    font-size: 2rem;
+}
+.feedback .row div{
+    background: #25282C;
+    padding: 1rem 1.7rem ;
+    color: #ffffff; 
+}
+.feedback .row div p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #979797;
+    word-spacing: .01rem;
+}
+.feedback .row div h4{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #E7E8EE;
+    word-spacing: .01rem;
+}
+.feedback .row div h4 span{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #5f9762;
+    word-spacing: .01rem;
+}
+/* 
+sub
+*/
+.sub{
+    background: #5658DD;
+    padding: 1rem  3rem;
+
+}
+.sub .row h3{
+font-weight: 900;
+font-size: 2rem;
+color: #ECEDED;
+
+}
+.sub .row input{
+  width: 30%;
+  border-style: none;
+  outline: none;
+  padding: 0.9rem 1rem;
+  border-radius: 5px;
+    
+    }
+    ul li {
+        color: #fff;
+    }
